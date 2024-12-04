@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+:root{
+    /* ==== Higlight names ==== */
+    --color-nav: #3498DB;
+    --color-name: #AED6F1;
+    --color-white: #fff;
+    --color-contact: #ECF0F1;
+
+    /* ==== Text colors ==== */
+    --text-primary: #717D7E;
+    --text-general: #F7F9F9;
+
+    /* ==== Background Color for General Page ==== */
+    --bg-color: #121212;
+
+    /* ==== Background color  ==== */
+    --primary: #F8F9F9;
+    --secondary: #BFC9CA;
+}
+/* ==== General Tag Style Start ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {text-decoration: none;}
+body {
+    color: var(--text-primary);
+    background-color: var(--primary);
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-weight: 300;
+}
+li {
+    list-style: none;
+}
+/* ==== General Tag Style End ==== */
+.hidden {
+    display: none;
+}
+.row {
+    padding-top: 2em;
+}
+.font-clicker {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-center {
+    text-align: center;
+}
+/* ==== Icons Font Start ==== */
+
+/* ==== Nav Start ==== */
+nav {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    display: inline-block;
+    color: var(--color-white);
+    transition: color 1s, background-color 1s;
+    padding: 1em 1em;
+}
+nav ul li a:hover {
+    background-color: var(--color-nav);
+    color: var(--color-white);
+}
+/* ==== Nav End ==== */
+
+/* ==== Header Start ==== */
+header {
+    text-align: center;
+    background-color: var(--bg-color);
+    padding: 4em 0 4em;
+}
+header div {
+    font-size: 12px;
+    color: var(--color-contact);
+}
+header div span.ai-logo {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+header div span.my-name {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-name);
+}
+.contact{
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.contact a {
+    color: var(--color-white);
+}
+/* ==== Header End ==== */
+
+/* ==== Section Content Start ==== */
+.about-me {
+    padding: 1em;
+    line-height: 1.5em;
+    color: var(--color-general);
+    margin: auto;
+}
+.about-me p {
+    width: 60%;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.about-me p.title {
+    font-weight: 800;
+    color: var(--text-primary);
+    font-size: 25px;
+}
+.about-me p.title span {
+    font-family: 'Beau Rivage', cursive;
+    display: block;
+    width: 30%;
+    min-width: 250px;
+    margin: auto;
+    margin-top: .5em;
+    font-size: 25px;
+    border-radius: .5em;
+    text-align: center;
+    background-color: var(--color-name);
+    padding: .5em;
+}
+.text-content {
+    margin-bottom: 1.5em;
+}
+div .text-content > span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: var(--color-nav);
+}
+.text-content span {
+    text-decoration: underline;
+    color: var(--color-name);
+}
+.subtitle {
+    font-size: 24px;
+    text-decoration: none !important;
+}
+ul.info-description {
+    width: 60%;
+    margin: auto;
+}
+ul.info-description li span {
+    font-weight: 600;
+}
+/* ==== Section Content End ==== */
+
+/* ==== Footer Section Start ==== */
+footer {
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 1.5em;
+    padding-bottom: 3em;
+}
+footer div.msg {
+    background: #fff;
+    padding: 1em;
+    border-radius: .5em;
+}
+/* ==== Footer Section End ==== */

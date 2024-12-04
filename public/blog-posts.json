@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Mi primer post de blog",
+      "content": "Este es el contenido de mi primer post. Habla sobre cosas interesantes...",
+      "author": "Juan Pérez",
+      "date": "2023-10-26"
+    },
+    {
+      "title": "Segundo post sobre React",
+      "content": "Este post habla sobre las ventajas de React.js y cómo usarlo para construir interfaces de usuario.",
+      "author": "Ana García",
+      "date": "2023-10-20"
+    },
+    {
+      "title": "Nuevo tutorial de Next.js",
+      "content": "Aprende a crear una aplicación web con Next.js. ¡Es fácil y divertido!",
+      "author": "Pedro Rodriguez",
+      "date": "2023-10-15"
+    }
+  ]
