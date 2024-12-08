@@ -31,9 +31,13 @@ jobs:
         run: |
           npm run build
 
+      - name: Run start
+        run: |
+          npm start
+
       - name: Restart NodeJS
         run: |
-          pm2 restart firtsproject
+          pm2 restart veplin
 
       - name: Restart Apache
         run: |

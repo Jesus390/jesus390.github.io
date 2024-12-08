@@ -1,6 +1,6 @@
 // pages/index.js
 import Navigation from '../components/Navigation'; // Adjust path if needed
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import AboutMe from '../components/AboutMe';
 import Head from 'next/head';
