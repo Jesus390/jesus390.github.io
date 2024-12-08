@@ -5,10 +5,25 @@ on:
       - master
 
 jobs:
-  test:
+  deploy:
     runs-on: self-hosted
+
     steps:
       - name: Check out code
         uses: actions/checkout@v3
-      - name: Run a script
-        run: echo "Hello from self-hosted runner!"
+        with:
+          ref: master
+
+      - name: Copy files to htdocs
+        run: |
+          # Dirígete a la carpeta htdocs donde está el código de tu aplicación
+          cd /home/bitnami/htdocs
+          # Limpia archivos antiguos si es necesario
+          rm -rf *
+          # Copia los archivos actualizados desde el repositorio
+          cp -r /path/to/your/local/git/repo/* .
+
+      - name: Restart Apache
+        run: |
+          sudo systemctl restart apache2
+        
