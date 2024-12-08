@@ -21,7 +21,7 @@ jobs:
           # Limpia archivos antiguos si es necesario
           rm -rf *
           # Copia los archivos actualizados desde el repositorio
-          cp -r /path/to/your/local/git/repo/* .
+          cp -r /home/bitnami/actions-runner/_work/veplin/veplin/* .
 
       - name: Restart Apache
         run: |
