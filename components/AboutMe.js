@@ -1,10 +1,10 @@
 export default function AboutMe() {
     return (
         <section id="about-me" className="about-me">
-            <p className="title">
+            {/* <p className="title">
                 <i className="fas fa-rocket"></i>
                 Descubriendo el Mundo de la Inteligencia Artificial con...<span>Jesús Espinola</span>
-            </p>
+            </p> */}
             <p className="text-content">
                 ¡Hola a todos! Soy Jesús, y hoy estoy emocionado de compartir mi viaje en el fascinante mundo de la Inteligencia Artificial.
             </p>
